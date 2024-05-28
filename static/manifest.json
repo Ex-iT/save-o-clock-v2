@@ -1,0 +1,17 @@
+{
+    "name": "Save-o-Clock",
+    "short_name": "SoC",
+    "description": "Displaying the current time as a screensaver",
+    "id": "/?homescreen=1",
+    "start_url": "/?homescreen=1",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "/favicon.ico",
+        "sizes": "16x16",
+        "type": "image/ico"
+      }
+    ]
+  }

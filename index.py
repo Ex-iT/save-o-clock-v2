@@ -7,7 +7,7 @@ import secrets
 NONCE = ''
 TIMEZONE = 'Europe/Amsterdam'
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static', static_url_path='')
 minify(app=app, html=True, js=True, cssless=True)
 
 def set_nonce():
