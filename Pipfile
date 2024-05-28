@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytz = ">=2023.3"
+Flask = ">=2.3.3"
+Flask-Minify = ">=0.42"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
